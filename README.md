@@ -25,7 +25,7 @@ Implementation using C or pyhton code
                        Dn (x)=(x - n) mod26
 
 ## PROGRAM:
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -64,7 +64,7 @@ int main()
 }
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/a94b21fb-c9e9-4a7c-b7d9-f30432d67aa4)
+![image](https://github.com/user-attachments/assets/18fb42b0-1a7e-4e65-8aff-01cc2ff90b19)
 
 ## RESULT:
 The program is executed successfully
@@ -106,7 +106,7 @@ To decrypt, use the INVERSE (opposite) of the last 3 rules, and the 1st as-is (d
 
 
 ## PROGRAM:
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -274,7 +274,7 @@ int main() {
 
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/eb6a535f-f692-4793-9c51-8c31c747a6a6)
+![image](https://github.com/user-attachments/assets/0fadf9c7-4e6a-439d-8bc5-7f800945750f)
 
 ## RESULT:
 The program is executed successfully
@@ -307,7 +307,7 @@ The cipher can, be adapted to an alphabet with any number of letters. All arithm
 
 
 ## PROGRAM:
-```
+```C
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -404,7 +404,7 @@ int main() {
 }
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/08c237de-036b-4628-953f-43e4c8203706)
+![image](https://github.com/user-attachments/assets/9f67d313-ddbf-4e49-87d3-00f88113685b)
 
 
 ## RESULT:
@@ -434,7 +434,7 @@ ALGORITHM DESCRIPTION:
 The Vigenere cipher is a method of encrypting alphabetic text by using a series of different Caesar ciphers based on the letters of a keyword. It is a simple form of polyalphabetic substitution.To encrypt, a table of alphabets can be used, termed a Vigenere square, or Vigenere table. It consists of the alphabet written out 26 times in different rows, each alphabet shifted cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar ciphers. At different points in the encryption process, the cipher uses a different alphabet from one of the rows used. The alphabet at each point depends on a repeating keyword.
 
 ## PROGRAM:
-```
+```C
 #include <stdio.h>
 #include <string.h>
 
@@ -489,7 +489,7 @@ int main() {
 
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/04e93b97-0bad-4e33-ae79-aeced49667f1)
+![image](https://github.com/user-attachments/assets/25147a55-3f95-4f70-b6c4-239b3ca00868)
 
 ## RESULT:
 The program is executed successfully
@@ -516,7 +516,7 @@ ALGORITHM DESCRIPTION:
 In the rail fence cipher, the plaintext is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when we reach the bottom rail. When we reach the top rail, the message is written downwards again until the whole plaintext is written out. The message is then read off in rows.
 
 ## PROGRAM:
-```
+```C
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -574,7 +574,7 @@ int main() {
 }
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/2c50b1a3-4c80-477b-8276-591e8ff9bfd7)
+![image](https://github.com/user-attachments/assets/1aa5fa9f-b60a-470d-a58f-8c6f40eb3a93)
 
 ## RESULT:
 The program is executed successfully
