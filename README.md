@@ -1,3 +1,4 @@
+```
 Ex-1 Caesar Cipher Program
 
 Ex-2 Playfair Cipher Program
@@ -19,6 +20,7 @@ Ex-9 RSA
 Ex-10 Diffee Hellman
 
 Ex-11 ECC
+```
 
 Ex-12 Elgamal
 
