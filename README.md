@@ -20,10 +20,10 @@ Ex-9 RSA
 Ex-10 Diffee Hellman
 
 Ex-11 ECC
-```
 
 Ex-12 Elgamal
 
 Ex-13 MAC
 
 Ex-14 Hash
+```
